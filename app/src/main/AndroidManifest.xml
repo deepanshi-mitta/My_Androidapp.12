@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".OTPLogin2"></activity>
+        <activity android:name=".FinalDashboard" />
+        <activity android:name=".QuestionThird" />
+        <activity android:name=".QuestionSecond" />
+        <activity android:name=".QuizApp" />
+        <activity android:name=".Browser" />
+        <activity android:name=".VideoApp" />
+        <activity android:name=".WifiApp" />
+        <activity android:name=".WelcomePage" />
+        <activity android:name=".GoogleLogin2" />
+        <activity android:name=".OTPLogin" />
+        <activity android:name=".GoogleLogin" />
+        <activity android:name=".SpecialServices" />
+        <activity android:name=".VibratorApp" />
+        <activity android:name=".Media" />
+        <activity android:name=".MediaPlayer" />
+        <activity android:name=".CameraServices" />
+        <activity android:name=".CalculatorApp" />
+        <activity android:name=".BluetoothApp" />
+        <activity android:name=".Vibrator" />
+        <activity android:name=".Accelerometer" />
+        <activity android:name=".LightSensor" />
+        <activity android:name=".SensorApp" />
+        <activity android:name=".TorchApp" />
+        <activity android:name=".SMS" />
+        <activity android:name=".Calling" />
+        <activity android:name=".MobileSer" />
+        <activity android:name=".LoginOptions2" />
+        <activity android:name=".OfflineApplications" />
+        <activity android:name=".LoginOptions" />
+        <activity android:name=".ActivityWindow" />
+        <activity android:name=".LoginScreen" />
+        <activity android:name=".OfflineScreen" />
+        <activity android:name=".OnlineScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

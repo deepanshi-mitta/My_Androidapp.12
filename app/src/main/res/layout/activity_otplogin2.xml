@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cv"
+    android:layout_height="match_parent"
+    tools:context=".OTPLogin2">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="113dp"
+        android:ems="10"
+        android:hint="Enter your OTP"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginBottom="320dp"
+        android:background="#0C34C5"
+        android:text="LOGIN" />
+
+
+</RelativeLayout>

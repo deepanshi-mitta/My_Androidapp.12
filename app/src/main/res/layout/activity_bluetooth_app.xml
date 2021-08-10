@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/i"
+    android:layout_height="match_parent"
+    tools:context=".BluetoothApp">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="54dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Bluetooth"
+        android:textColor="#FB0808"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="155dp"
+        android:background="#EF0BEB"
+        android:text="ON"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="219dp"
+        android:background="#F40BF1"
+        android:text="off"
+        android:textColor="#F6F0F6"
+        android:textSize="24sp" />
+</RelativeLayout>

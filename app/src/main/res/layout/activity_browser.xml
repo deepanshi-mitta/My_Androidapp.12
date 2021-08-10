@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lp"
+    tools:context=".Browser">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-11dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Browser App"
+        android:textColor="#F3E704"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="400dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="-5dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Search something"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="390dp"
+        android:layout_height="301dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="384dp" />
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="#F3CC0B"
+        android:text="Search"
+        android:textSize="20sp" />
+
+</RelativeLayout>

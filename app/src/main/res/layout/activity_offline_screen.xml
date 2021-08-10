@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/e"
+    android:layout_height="match_parent"
+    tools:context=".OfflineScreen">
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/e"
+        android:text="Register yourself"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0FE6CD"
+        android:textSize="48sp"
+        android:layout_marginRight="2dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="245dp"
+        android:background="@drawable/e"
+        android:text="Your activity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#07E8CE"
+        android:textSize="48sp"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gd"
+    tools:context=".QuestionSecond">
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Who is the Prime Minister of India?"
+        android:textColor="#04F12C"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="309dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Narendra Modi"
+        android:textColor="#F1DA06"
+        android:textSize="34sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginBottom="336dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Sonia Gandhi"
+        android:textColor="#E8D209"
+        android:textSize="34sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/radioButton7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="232dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Akilesh Yadav"
+        android:textColor="#DFC902"
+        android:textSize="34sp"
+        tools:ignore="NotSibling" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="92dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Manmohan Singh"
+        android:textColor="#DCC707"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#20A309"
+        android:text="Next"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

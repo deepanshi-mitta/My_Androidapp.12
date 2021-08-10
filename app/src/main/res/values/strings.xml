@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="mobile_services">Mobile services</string>
+    <string name="mobileservices">MobileServices</string>
+</resources>
